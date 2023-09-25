@@ -10,7 +10,9 @@
     "lint-staged": "lint-staged",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit && echo ",
     "test": "jest --coverage",
-    "test:w": "jest --watch"
+    "test:w": "jest --watch",
+    "start:azure": "node server"
+
   },
   "dependencies": {
     "autoprefixer": "10.4.16",
@@ -41,4 +43,5 @@
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   }
+   
 }
